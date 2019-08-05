@@ -1,0 +1,29 @@
+{
+    "authors": [
+        {
+            "name": "Hilderjares",
+            "email": "hiderjares@alu.ufc.br",
+            "homepage": "http://hilderjares.github.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+      
+    },
+    "require-dev":{
+
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+    	"files": [
+    		"src/functions.php"
+    	]
+    },
+    "config": {
+        "platform": {
+            "ext-mongo": "1.6.16"
+        }
+    }
+}

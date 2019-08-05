@@ -8,5 +8,7 @@ docker-compose run cli php -v
 
 docker-compose run cli dep -v
 
+docker-compose run cli composer -v
+
 
 
